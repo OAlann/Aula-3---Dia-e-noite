@@ -1,6 +1,6 @@
 # Exercício de OpenGL: Cenário com Alternância de Dia e Noite
 
-# Programa em C++ utilizando OpenGL que desenhe um cenário e alterne as cores do céu e outros elementos para representar dia e noite a cada 5 segundos. Neste exercício, você irá criar um cenário que inclui um chão, uma casa, árvores, sol, lua e estrelas. A cor do céu deve alternar entre azul claro (representando o
+Programa em C++ utilizando OpenGL que desenhe um cenário e alterne as cores do céu e outros elementos para representar dia e noite a cada 5 segundos. Neste exercício, você irá criar um cenário que inclui um chão, uma casa, árvores, sol, lua e estrelas. A cor do céu deve alternar entre azul claro (representando o
 dia) e azul escuro (representando a noite) a cada 5 segundos. Alguns elementos devem ser exibidos somente no dia ou noite, como sul, lua a estrelas. Você é livre para adicionar mais elementos.
 
 # Passos para Implementação:
