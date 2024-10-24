@@ -5,20 +5,20 @@ dia) e azul escuro (representando a noite) a cada 5 segundos. Alguns elementos d
 
 # Passos para Implementação:
 
-•Configure o ambiente de desenvolvimento no Visual Studio para utilizar OpenGL e GLUT.
-•Crie um novo projeto em C++.
-•Inicialize a biblioteca GLUT.
-•Configure o modo de exibição para utilizar um buffer duplo e cores RGB.
-•Defina o tamanho da janela e o título.
-•Implemente uma função DesenhaCena que desenhe o chão, uma casa, árvores, um sol e estrelas.
-•Utilize glBegin e glEnd para desenhar os elementos do cenário.
-•Defina as cores apropriadas para cada elemento (por exemplo, verde para o chão e as árvores, marrom para a casa, amarelo para o sol, branco para as estrelas).
-•Crie variáveis para armazenar as cores do céu durante o dia e a noite.
-•Implemente uma função TrocaCor que alterne entre as cores do dia e da noite.
-•Utilize glutTimerFunc para chamar a função TrocaCor a cada 5 segundos.
-•Configure a função de exibição (glutDisplayFunc) para chamar DesenhaCena.
-•Inicialize a cor de fundo da janela com a cor do céu atual.
-•Inicie o loop principal do GLUT (glutMainLoop).
+• Configure o ambiente de desenvolvimento no Visual Studio para utilizar OpenGL e GLUT.
+• Crie um novo projeto em C++.
+• Inicialize a biblioteca GLUT.
+• Configure o modo de exibição para utilizar um buffer duplo e cores RGB.
+• Defina o tamanho da janela e o título.
+• Implemente uma função DesenhaCena que desenhe o chão, uma casa, árvores, um sol e estrelas.
+• Utilize glBegin e glEnd para desenhar os elementos do cenário.
+• Defina as cores apropriadas para cada elemento (por exemplo, verde para o chão e as árvores, marrom para a casa, amarelo para o sol, branco para as estrelas).
+• Crie variáveis para armazenar as cores do céu durante o dia e a noite.
+• Implemente uma função TrocaCor que alterne entre as cores do dia e da noite.
+• Utilize glutTimerFunc para chamar a função TrocaCor a cada 5 segundos.
+• Configure a função de exibição (glutDisplayFunc) para chamar DesenhaCena.
+• Inicialize a cor de fundo da janela com a cor do céu atual.
+• Inicie o loop principal do GLUT (glutMainLoop).
 
 # Pontos importantes:
 • Certifique-se de que todas as bibliotecas necessárias estão corretamente instaladas e configuradas.
